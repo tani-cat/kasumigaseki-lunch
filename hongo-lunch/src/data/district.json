@@ -1,0 +1,44 @@
+{
+    "#format-rule": {
+        "code": "参照用の文字列: 英数字",
+        "name": "表示する名前"
+    },
+    "district": [
+        {
+            "code": "hon3",
+            "name": "本郷三丁目"
+        },
+        {
+            "code": "yushima",
+            "name": "湯島"
+        },
+        {
+            "code": "akamon",
+            "name": "東大赤門前"
+        },
+        {
+            "code": "seimon",
+            "name": "東大正門前"
+        },
+        {
+            "code": "yayoi",
+            "name": "弥生"
+        },
+        {
+            "code": "nezu",
+            "name": "根津"
+        },
+        {
+            "code": "kasuga",
+            "name": "春日"
+        },
+        {
+            "code": "hakusan",
+            "name": "白山"
+        },
+        {
+            "code": "kourakuen",
+            "name": "後楽園"
+        }
+    ]
+}
