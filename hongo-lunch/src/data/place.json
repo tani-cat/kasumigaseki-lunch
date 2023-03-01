@@ -1,0 +1,19 @@
+{
+  "nextKey": 3,
+  "place": [
+    {
+      "key": 1,
+      "name": "松屋 本郷三丁目店",
+      "genre": "gyudon",
+      "district": "hon3",
+      "state": true
+    },
+    {
+      "key": 2,
+      "name": "家家家 本郷店",
+      "genre": "iekei-ramen",
+      "district": "akamon",
+      "state": true
+    }
+  ]
+}
