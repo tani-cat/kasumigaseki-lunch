@@ -1,0 +1,12 @@
+{
+  "genre": [
+    {
+      "key": "gyudon",
+      "name": "牛丼"
+    },
+    {
+      "key": "iekei-ramen",
+      "name": "家系ラーメン"
+    }
+  ]
+}

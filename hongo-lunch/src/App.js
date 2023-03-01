@@ -1,7 +1,21 @@
-import MainScreen from "./components/main";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-export default function App() {
+import './App.css';
+import { PageHome } from './components/page-home';
+import { PageResult } from './components/page-result';
+
+export const App = () => {
   return (
-    <MainScreen />
+    <BrowserRouter>
+      <Container className="p-4 text-center">
+        <h2 className="mb-3"><Link to="/" className="text-reset text-decoration-none">本郷ランチ</Link></h2>
+        <Routes>
+          <Route path="/result" element={<PageResult />} />
+          <Route path="/" element={<PageHome />} />
+        </Routes>
+      </Container>
+    </BrowserRouter >
   );
 }
