@@ -16,7 +16,7 @@ export const PageHome = () => {
       <FilterDistrict />
       <hr /> */}
       <div>ver. {process.env.REACT_APP_VERSION}</div>
-      <div><a href="https://www.github.com/tani-cat/hongo-lunch-react">GitHub</a></div>
+      <div><a href="https://www.github.com/tani-cat/hongo-lunch">GitHub</a></div>
     </>
   )
 }
