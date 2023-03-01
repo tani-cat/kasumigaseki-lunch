@@ -12,8 +12,8 @@ export const App = () => {
       <Container className="p-4 text-center">
         <h2 className="mb-3"><Link to="/" className="text-reset text-decoration-none">本郷ランチ</Link></h2>
         <Routes>
+          <Route exact path="/" element={<PageHome />} />
           <Route path="/result" element={<PageResult />} />
-          <Route path="/" element={<PageHome />} />
         </Routes>
       </Container>
     </BrowserRouter >
