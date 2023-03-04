@@ -1,18 +1,13 @@
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-import Place from "../data/place.json";
 
-
-export const PageResult = () => {
+export const PageResult = ({ result }) => {
   const navigate = useNavigate();
-  // 乱数で決定する
-  const resultId = Math.floor(Math.random() * Place.place.length);
-  const result = Place.place[resultId];
 
   return (
     <>
-      <Card>
+      <Card className="mb-3">
         <Card.Body>
           <Card.Title>本日のランチ結果</Card.Title>
           <Card.Text>
@@ -28,7 +23,6 @@ export const PageResult = () => {
           </Row>
         </Card.Body>
       </Card>
-      <br />
       <Button variant="secondary" onClick={() => navigate("/")}>もう一度選ぶ</Button>
     </>
   )

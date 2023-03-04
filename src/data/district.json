@@ -19,7 +19,9 @@
     {
       "key": "nezu",
       "name": "根津"
-    },
+    }
+  ],
+  "notRegistered": [
     {
       "key": "yushima",
       "name": "湯島"
