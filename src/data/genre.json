@@ -5,8 +5,116 @@
       "name": "牛丼"
     },
     {
-      "key": "iekei-ramen",
-      "name": "家系ラーメン"
+      "key": "ramen-iekei",
+      "name": "ラーメン（家系）"
+    },
+    {
+      "key": "chicken",
+      "name": "焼き鳥"
+    },
+    {
+      "key": "ramen-china",
+      "name": "ラーメン（中華系）"
+    },
+    {
+      "key": "ramen-1",
+      "name": "ラーメン（一般）"
+    },
+    {
+      "key": "yakiniku",
+      "name": "焼肉"
+    },
+    {
+      "key": "korea",
+      "name": "韓国料理"
+    },
+    {
+      "key": "kaisen",
+      "name": "魚介海鮮料理"
+    },
+    {
+      "key": "hamburger",
+      "name": "ハンバーガー"
+    },
+    {
+      "key": "italy",
+      "name": "イタリア料理"
+    },
+    {
+      "key": "udon",
+      "name": "うどん"
+    },
+    {
+      "key": "ind-curry",
+      "name": "インドカレー"
+    },
+    {
+      "key": "china",
+      "name": "中華料理"
+    },
+    {
+      "key": "soba",
+      "name": "そば"
+    },
+    {
+      "key": "european",
+      "name": "洋食（その他）"
+    },
+    {
+      "key": "curry",
+      "name": "カレー"
+    },
+    {
+      "key": "don",
+      "name": "丼もの"
+    },
+    {
+      "key": "teishoku",
+      "name": "定食"
+    },
+    {
+      "key": "unagi",
+      "name": "うなぎ"
+    },
+    {
+      "key": "thai",
+      "name": "タイ料理"
+    },
+    {
+      "key": "steak",
+      "name": "ステーキ"
+    },
+    {
+      "key": "kissa",
+      "name": "喫茶店"
+    },
+    {
+      "key": "washoku",
+      "name": "和食"
+    },
+    {
+      "key": "others",
+      "name": "その他"
+    },
+    {
+      "key": "ramen-miso",
+      "name": "ラーメン（味噌）"
+    },
+    {
+      "key": "bento",
+      "name": "弁当"
+    },
+    {
+      "key": "ramen-other",
+      "name": "麺類（その他）"
+    },
+    {
+      "key": "ramen-jiro",
+      "name": "ラーメン（二郎系）"
+    },
+    {
+      "key": "french",
+      "name": "フランス料理"
     }
   ]
 }
