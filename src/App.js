@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
+
 import { PageHome } from './components/page-home';
 import { PageResult } from './components/page-result';
 import { PageUpdate } from './components/page-update';

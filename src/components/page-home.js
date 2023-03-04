@@ -4,9 +4,18 @@ import { Button } from 'react-bootstrap';
 import { FilterCard } from './util-filter';
 import { Link, useNavigate } from "react-router-dom";
 
+
 import District from "../data/district.json";
 import Genre from "../data/genre.json";
 import Place from "../data/place.json";
+
+const eventTrack = (result) => {
+  if (!window.gtag) return
+  window.gtag("event", "push_button", {
+    result: result
+  });
+}
+
 
 export const PageHome = ({ setResult }) => {
   const navigate = useNavigate();
@@ -32,13 +41,14 @@ export const PageHome = ({ setResult }) => {
     const targetPlace = Place.place.filter(
       place => targetDists.includes(place.district) && targetGenres.includes(place.genre)
     );
-    console.log(targetDists);
-    console.log(districts);
+    // console.log(targetDists);
+    // console.log(districts);
     if (targetPlace.length === 0) {
       alert("対象となるお店がありません。条件を変更して再度お試しください。");
       return;
     }
     const resultId = Math.floor(Math.random() * targetPlace.length);
+    eventTrack(targetPlace[resultId].display_name);
     setResult(targetPlace[resultId]);
     navigate("/result");
   }
