@@ -1,6 +1,6 @@
 {
   "name": "hongo-lunch",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "suggest your lunch in Hongo area (Bunkyo, Tokyo)",
   "private": true,
   "homepage": "https://tani-cat.github.io/hongo-lunch/",
@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",

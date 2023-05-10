@@ -1,12 +1,15 @@
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
+import { PageHeader } from "./util-content";
+
 
 export const PageResult = ({ result }) => {
   const navigate = useNavigate();
 
   return (
     <>
+      <PageHeader />
       <Card className="mb-3">
         <Card.Body>
           <Card.Title>本日のランチ結果</Card.Title>
@@ -23,7 +26,9 @@ export const PageResult = ({ result }) => {
           </Row>
         </Card.Body>
       </Card>
-      <Button variant="secondary" onClick={() => navigate("/")}>もう一度選ぶ</Button>
+      <div>
+        <Button variant="secondary" onClick={() => navigate("/")}>もう一度選ぶ</Button>
+      </div>
     </>
   )
 }

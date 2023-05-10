@@ -211,11 +211,11 @@
     },
     {
       "key": "27",
-      "display_name": "蓬渓閣",
+      "display_name": "（閉店）蓬渓閣",
       "search_name": "蓬渓閣 本郷",
       "genre": "china",
       "district": "hon3",
-      "state": true
+      "state": false
     },
     {
       "key": "28",
@@ -710,6 +710,14 @@
       "display_name": "小松庵 向丘店",
       "search_name": "小松庵 向丘店",
       "genre": "udon",
+      "district": "yayoi",
+      "state": true
+    },
+    {
+      "key": "90",
+      "display_name": "Cafe A gli 101 (東大構内)",
+      "search_name": "カフェ アグリ ワンオーワン",
+      "genre": "bento",
       "district": "yayoi",
       "state": true
     }

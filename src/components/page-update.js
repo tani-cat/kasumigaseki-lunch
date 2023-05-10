@@ -1,5 +1,6 @@
-import { Card, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Card } from "react-bootstrap";
+
+import { BackToTop, PageHeader } from "./util-content";
 
 import Update from "../data/update.json";
 
@@ -24,11 +25,12 @@ const VersionCard = ({ update, latest }) => {
 
 
 export const PageUpdate = () => {
-  const navigate = useNavigate();
   const targetUpdate = Update.update.slice(0, 10);
 
   return (
     <>
+      <PageHeader />
+      <hr />
       <h4>アップデート履歴</h4>
       <div className="text-start">
         {targetUpdate.map((update, index) => {
@@ -37,7 +39,7 @@ export const PageUpdate = () => {
           )
         })}
       </div>
-      <Button variant="secondary" onClick={() => navigate("/")}>トップページに戻る</Button>
+      <BackToTop />
     </>
   )
 }

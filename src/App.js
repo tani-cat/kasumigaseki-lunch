@@ -6,12 +6,10 @@ import './App.css';
 
 import { PageHome } from './components/page-home';
 import { PageResult } from './components/page-result';
+import { PageList } from './components/page-list';
 import { PageUpdate } from './components/page-update';
 import { ScrollTop } from './components/util-scroll';
 
-const Title = React.memo(() => {
-  return <h2 className="mb-3">本郷ランチ</h2>;
-})
 
 export const App = () => {
   const [result, setResult] = useState("");
@@ -20,12 +18,14 @@ export const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ScrollTop />
       <Container className="p-4 col-md-8 col-lg-6 text-center">
-        <Title />
         <Routes>
           <Route path="/" element={<PageHome setResult={setResult} />} />
           <Route path="/result" element={result ? <PageResult result={result} /> : <PageHome setResult={setResult} />} />
+          <Route path="/list" element={<PageList />} />
           <Route path="/update" element={<PageUpdate />} />
         </Routes>
+        <br />
+        <div>本郷ランチ ver. {process.env.REACT_APP_VERSION}</div>
       </Container>
     </BrowserRouter >
   );

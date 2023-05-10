@@ -1,13 +1,16 @@
-import { useState } from 'react';
+import { useState } from "react";
+import { Button, Col, Row } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
 
-import { Button } from 'react-bootstrap';
-import { FilterCard } from './util-filter';
+import { FilterCard } from "./util-filter";
 import { Link, useNavigate } from "react-router-dom";
 
+import { PageHeader } from "./util-content";
 
 import District from "../data/district.json";
 import Genre from "../data/genre.json";
 import Place from "../data/place.json";
+
 
 const eventTrack = (result) => {
   if (!window.gtag) return
@@ -16,9 +19,9 @@ const eventTrack = (result) => {
   });
 }
 
-
 export const PageHome = ({ setResult }) => {
   const navigate = useNavigate();
+  // districts, genres の初期値はすべて true にセットしておく
   const [districts, setDistricts] = useState(District.district.reduce((res, item) => {
     res[item.key] = true;
     return res;
@@ -55,14 +58,37 @@ export const PageHome = ({ setResult }) => {
 
   return (
     <>
+      <PageHeader />
+      <div>
+        <small className="text-muted">本郷近辺のお店からあなたの今日のランチを選びます</small>
+      </div>
+      <br />
       <Button variant="primary" onClick={passResult}>今日のランチを決定！</Button>
       <hr />
       <FilterCard name="地区" target={District.district} states={districts} setStates={setDistricts} />
       <br />
       <FilterCard name="ジャンル" target={Genre.genre} states={genres} setStates={setGenres} />
       <hr />
-      <div>ver. {process.env.REACT_APP_VERSION} (<Link to="/update">アップデート履歴</Link>)</div>
-      <div><a href="https://www.github.com/tani-cat/hongo-lunch">GitHub</a></div>
+      <h3>More Information</h3>
+      <Row className="row-cols-auto justify-content-center">
+        <Col>
+          <Link to="/list">
+            <Button variant="outline-success">
+              登場する店舗一覧
+            </Button>
+          </Link>
+        </Col>
+        <Col>
+          <a href="https://www.github.com/tani-cat/hongo-lunch" target="_blank" rel="noreferrer">
+            <Button variant="outline-dark"><FaGithub />Contribute</Button>
+          </a>
+        </Col>
+        <Col>
+          <Link to="/update">
+            <Button variant="outline-danger">アップデート履歴</Button>
+          </Link>
+        </Col>
+      </Row>
     </>
   )
 }
