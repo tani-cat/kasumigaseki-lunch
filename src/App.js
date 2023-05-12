@@ -8,7 +8,8 @@ import { PageHome } from './components/page-home';
 import { PageResult } from './components/page-result';
 import { PageList } from './components/page-list';
 import { PageUpdate } from './components/page-update';
-import { ScrollTop } from './components/util-scroll';
+import { Page404 } from './components/404';
+import { ScrollTop } from './components/utils/util-scroll';
 
 
 export const App = () => {
@@ -23,6 +24,7 @@ export const App = () => {
           <Route path="/result" element={result ? <PageResult result={result} /> : <PageHome setResult={setResult} />} />
           <Route path="/list" element={<PageList />} />
           <Route path="/update" element={<PageUpdate />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
         <br />
         <div>本郷ランチ ver. {process.env.REACT_APP_VERSION}</div>

@@ -1,46 +1,12 @@
 {
-  "district": [
-    {
-      "key": "hon3",
-      "name": "本郷三丁目駅"
-    },
-    {
-      "key": "akamon",
-      "name": "東大赤門前"
-    },
-    {
-      "key": "seimon",
-      "name": "東大正門前"
-    },
-    {
-      "key": "yayoi",
-      "name": "東大農学部前"
-    },
-    {
-      "key": "nezu",
-      "name": "根津"
-    }
-  ],
-  "notRegistered": [
-    {
-      "key": "yushima",
-      "name": "湯島"
-    },
-    {
-      "key": "korakuen",
-      "name": "後楽園"
-    },
-    {
-      "key": "hakusan",
-      "name": "白山"
-    },
-    {
-      "key": "honkoma",
-      "name": "本駒込"
-    },
-    {
-      "key": "sendagi",
-      "name": "千駄木"
-    }
-  ]
+  "hon3": "本郷三丁目駅",
+  "akamon": "東大赤門前",
+  "seimon": "東大正門前",
+  "yayoi": "東大農学部前",
+  "nezu": "根津",
+  "yushima": "湯島",
+  "korakuen": "後楽園",
+  "hakusan": "白山",
+  "honkoma": "本駒込",
+  "sendagi": "千駄木"
 }

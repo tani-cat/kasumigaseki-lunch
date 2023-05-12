@@ -1,6 +1,6 @@
 {
   "name": "hongo-lunch",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "suggest your lunch in Hongo area (Bunkyo, Tokyo)",
   "private": true,
   "homepage": "https://tani-cat.github.io/hongo-lunch/",

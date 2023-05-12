@@ -1,7 +1,7 @@
 import { Table } from "react-bootstrap";
 import { BsCheckCircleFill, BsCircle } from "react-icons/bs";
 
-import { BackToTop, PageHeader } from "./util-content";
+import { PageFooter, PageHeader } from "./utils/util-content";
 
 
 import District from "../data/district.json";
@@ -10,20 +10,14 @@ import Place from "../data/place.json";
 
 
 export const PageList = () => {
-  const districtDict = District.district.reduce(
-    (obj, item) => ({ ...obj, [item.key]: item.name }), {}
-  );
-  const genreDict = Genre.genre.reduce(
-    (obj, item) => ({ ...obj, [item.key]: item.name }), {}
-  );
-  const tbody = Place.place.map(item => {
+  const tbody = Object.keys(Place).map(key => {
     return (
-      <tr>
+      <tr key={key}>
         {/* <td>{item.key}</td> */}
-        <td>{districtDict[item.district]}</td>
-        <td>{genreDict[item.genre]}</td>
-        <td>{item.display_name}</td>
-        <td>{item.state ? <BsCheckCircleFill /> : <BsCircle />}</td>
+        <td>{District[Place[key].district]}</td>
+        <td>{Genre[Place[key].genre]}</td>
+        <td>{Place[key].display_name}</td>
+        <td>{Place[key].state ? <BsCheckCircleFill /> : <BsCircle />}</td>
       </tr>
     );
   });
@@ -50,7 +44,7 @@ export const PageList = () => {
           {tbody}
         </tbody>
       </Table>
-      <BackToTop />
+      <PageFooter />
     </>
   )
 }

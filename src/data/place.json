@@ -1,725 +1,632 @@
 {
-  "nextKey": 90,
-  "place": [
-    {
-      "key": "1",
-      "display_name": "松屋 本郷三丁目店",
-      "search_name": "松屋 本郷三丁目店",
-      "genre": "gyudon",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "2",
-      "display_name": "家家家 本郷店",
-      "search_name": "家家家 本郷店",
-      "genre": "ramen-iekei",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "3",
-      "display_name": "がブリチキン。 本郷店",
-      "search_name": "がブリチキン。 本郷店",
-      "genre": "chicken",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "4",
-      "display_name": "我流坦々麺 竹子",
-      "search_name": "我流坦々麺 竹子",
-      "genre": "ramen-china",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "5",
-      "display_name": "中華蕎麦 にし乃",
-      "search_name": "中華蕎麦 にし乃",
-      "genre": "ramen-1",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "6",
-      "display_name": "焼肉ジャンボ 本郷店",
-      "search_name": "焼肉ジャンボ 本郷店",
-      "genre": "yakiniku",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "7",
-      "display_name": "麺や 穂ころび",
-      "search_name": "麺や 穂ころび",
-      "genre": "ramen-1",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "8",
-      "display_name": "西安刀削麺酒楼 本郷店",
-      "search_name": "西安刀削麺酒楼 本郷店",
-      "genre": "ramen-china",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "9",
-      "display_name": "トンデジ 本郷店",
-      "search_name": "トンデジ 本郷店",
-      "genre": "korea",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "10",
-      "display_name": "まぐろ専門店MEGRO",
-      "search_name": "まぐろ専門店MEGRO",
-      "genre": "kaisen",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "11",
-      "display_name": "バーガーキング 本郷三丁目店",
-      "search_name": "バーガーキング 本郷三丁目店",
-      "genre": "hamburger",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "12",
-      "display_name": "東京ペペロンチーノ",
-      "search_name": "東京ペペロンチーノ",
-      "genre": "italy",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "13",
-      "display_name": "トウキョウライトブルー ホンゴウスリー",
-      "search_name": "トウキョウライトブルー ホンゴウスリー",
-      "genre": "udon",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "14",
-      "display_name": "麺屋凛 本郷三丁目本店",
-      "search_name": "麺屋凛 本郷三丁目本店",
-      "genre": "ramen-1",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "15",
-      "display_name": "モスバーガー 本郷三丁目店",
-      "search_name": "モスバーガー 本郷三丁目店",
-      "genre": "hamburger",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "16",
-      "display_name": "インドカレーナマステ 本郷三丁目店",
-      "search_name": "インドカレーナマステ 本郷三丁目店",
-      "genre": "ind-curry",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "17",
-      "display_name": "桂園 本郷三丁目店",
-      "search_name": "桂園 本郷三丁目店",
-      "genre": "china",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "18",
-      "display_name": "永坂庵 本郷三丁目店",
-      "search_name": "永坂庵 本郷三丁目店",
-      "genre": "soba",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "19",
-      "display_name": "洋食屋せんごく 本郷店",
-      "search_name": "洋食屋せんごく 本郷店",
-      "genre": "european",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "20",
-      "display_name": "日乃屋カレー 本郷三丁目店",
-      "search_name": "日乃屋カレー 本郷三丁目店",
-      "genre": "curry",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "21",
-      "display_name": "麺屋ねむ瑠",
-      "search_name": "麺屋ねむ瑠",
-      "genre": "ramen-1",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "22",
-      "display_name": "なか卯 本郷三丁目店",
-      "search_name": "なか卯 本郷三丁目店",
-      "genre": "don",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "23",
-      "display_name": "CoCo壱番屋 本郷三丁目駅前店",
-      "search_name": "CoCo壱番屋 本郷三丁目駅前店",
-      "genre": "curry",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "24",
-      "display_name": "日高屋 本郷三丁目店",
-      "search_name": "日高屋 本郷三丁目店",
-      "genre": "china",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "25",
-      "display_name": "SOBA UDON わ",
-      "search_name": "SOBA UDON わ",
-      "genre": "soba",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "26",
-      "display_name": "サイゼリヤ 本郷三丁目店",
-      "search_name": "サイゼリヤ 本郷三丁目店",
-      "genre": "italy",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "27",
-      "display_name": "（閉店）蓬渓閣",
-      "search_name": "蓬渓閣 本郷",
-      "genre": "china",
-      "district": "hon3",
-      "state": false
-    },
-    {
-      "key": "28",
-      "display_name": "本郷屋",
-      "search_name": "本郷屋",
-      "genre": "ramen-iekei",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "29",
-      "display_name": "らーめん一信",
-      "search_name": "らーめん一信",
-      "genre": "ramen-1",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "30",
-      "display_name": "やよい軒 本郷店",
-      "search_name": "やよい軒 本郷店",
-      "genre": "teishoku",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "31",
-      "display_name": "東京坦々麺本舗 瀬佐味亭",
-      "search_name": "東京坦々麺本舗 瀬佐味亭 本郷",
-      "genre": "ramen-china",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "32",
-      "display_name": "清流うなぎ月島 東大赤門前店",
-      "search_name": "清流うなぎ月島 東大赤門前店",
-      "genre": "unagi",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "33",
-      "display_name": "龍蔵",
-      "search_name": "龍蔵 本郷",
-      "genre": "china",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "34",
-      "display_name": "IZASA",
-      "search_name": "IZASA",
-      "genre": "ramen-1",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "35",
-      "display_name": "タイ屋食堂 Thai Food",
-      "search_name": "タイ屋食堂 Thai Food 本郷",
-      "genre": "thai",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "36",
-      "display_name": "海鮮どんぶり 銀八丼 東大赤門店",
-      "search_name": "海鮮どんぶり 銀八丼 東大赤門店",
-      "genre": "kaisen",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "37",
-      "display_name": "ダージリン 本郷店",
-      "search_name": "ダージリン 本郷店",
-      "genre": "ind-curry",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "38",
-      "display_name": "赤門餃子店",
-      "search_name": "赤門餃子店",
-      "genre": "china",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "39",
-      "display_name": "おおさわ",
-      "search_name": "おおさわ 本郷",
-      "genre": "kaisen",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "40",
-      "display_name": "一番餃子",
-      "search_name": "一番餃子 本郷",
-      "genre": "china",
-      "district": "akamon",
-      "state": true
-    },
-    {
-      "key": "41",
-      "display_name": "ピグ",
-      "search_name": "ピグ 本郷",
-      "genre": "steak",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "42",
-      "display_name": "本格韓国家庭料理 いなか家",
-      "search_name": "本格韓国家庭料理 いなか家",
-      "genre": "korea",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "43",
-      "display_name": "グリーンアップル",
-      "search_name": "グリーンアップル 本郷",
-      "genre": "curry",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "44",
-      "display_name": "もり川",
-      "search_name": "もり川 本郷",
-      "genre": "teishoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "45",
-      "display_name": "喫茶ルオー",
-      "search_name": "喫茶ルオー",
-      "genre": "kissa",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "46",
-      "display_name": "吉田とん汁店",
-      "search_name": "吉田とん汁店",
-      "genre": "washoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "47",
-      "display_name": "美味しい屋",
-      "search_name": "美味しい屋",
-      "genre": "china",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "48",
-      "display_name": "宮本",
-      "search_name": "宮本 本郷",
-      "genre": "kaisen",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "49",
-      "display_name": "まるそ",
-      "search_name": "まるそ 本郷",
-      "genre": "soba",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "50",
-      "display_name": "欧風カレー ル・ムーラン",
-      "search_name": "欧風カレー ル・ムーラン",
-      "genre": "curry",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "51",
-      "display_name": "カポ・ペリカーノ",
-      "search_name": "カポ・ペリカーノ 本郷",
-      "genre": "italy",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "52",
-      "display_name": "東京大学 銀杏メトロ食堂",
-      "search_name": "東京大学 銀杏メトロ食堂",
-      "genre": "teishoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "53",
-      "display_name": "東京大学 中央食堂",
-      "search_name": "東京大学 中央食堂",
-      "genre": "teishoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "54",
-      "display_name": "東京大学 本郷第二食堂",
-      "search_name": "東京大学 本郷第二食堂",
-      "genre": "teishoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "55",
-      "display_name": "ネオポンテTOKYO",
-      "search_name": "ネオポンテTOKYO 本郷",
-      "genre": "others",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "56",
-      "display_name": "SUPER PIZZA",
-      "search_name": "SUPER PIZZA 本郷",
-      "genre": "italy",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "57",
-      "display_name": "北海道の米と汁U-gohan 東大正門",
-      "search_name": "北海道の米と汁U-gohan 東大正門",
-      "genre": "washoku",
-      "district": "seimon",
-      "state": true
-    },
-    {
-      "key": "58",
-      "display_name": "札幌味噌ラーメン 三好",
-      "search_name": "札幌味噌ラーメン 三好",
-      "genre": "ramen-miso",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "59",
-      "display_name": "保苅商店",
-      "search_name": "保苅商店 本郷",
-      "genre": "bento",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "60",
-      "display_name": "nanara食堂",
-      "search_name": "nanara食堂",
-      "genre": "teishoku",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "61",
-      "display_name": "増田屋",
-      "search_name": "増田屋 本郷",
-      "genre": "soba",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "62",
-      "display_name": "石垣の塩まぜそば 織恩",
-      "search_name": "石垣の塩まぜそば 織恩",
-      "genre": "ramen-other",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "63",
-      "display_name": "ビサール",
-      "search_name": "ビサール 本郷",
-      "genre": "ind-curry",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "64",
-      "display_name": "旬菜宵処 おぐち",
-      "search_name": "旬菜宵処 おぐち",
-      "genre": "teishoku",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "65",
-      "display_name": "用心棒 本号",
-      "search_name": "用心棒 本号",
-      "genre": "ramen-jiro",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "66",
-      "display_name": "隋苑 上海厨房",
-      "search_name": "隋苑 上海厨房",
-      "genre": "china",
-      "district": "hon3",
-      "state": true
-    },
-    {
-      "key": "67",
-      "display_name": "鶏はな",
-      "search_name": "鶏はな 根津",
-      "genre": "don",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "68",
-      "display_name": "一卵亭",
-      "search_name": "一卵亭 根津",
-      "genre": "washoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "69",
-      "display_name": "けい",
-      "search_name": "けい 根津",
-      "genre": "washoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "70",
-      "display_name": "根津カレー ラッキー",
-      "search_name": "根津カレー ラッキー",
-      "genre": "curry",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "71",
-      "display_name": "根津巡りや 究極の卵かけご飯",
-      "search_name": "根津巡りや 究極の卵かけご飯",
-      "genre": "washoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "72",
-      "display_name": "食為天 根津店",
-      "search_name": "食為天 根津店",
-      "genre": "china",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "73",
-      "display_name": "BINGO TACOS KITCHEN",
-      "search_name": "BINGO TACOS KITCHEN",
-      "genre": "others",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "74",
-      "display_name": "ラーメンバル ゆきかげ",
-      "search_name": "ラーメンバル ゆきかげ",
-      "genre": "ramen-1",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "75",
-      "display_name": "和幸",
-      "search_name": "和幸 根津",
-      "genre": "teishoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "76",
-      "display_name": "定食かめや",
-      "search_name": "定食かめや 根津",
-      "genre": "teishoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "77",
-      "display_name": "吉野家 根津店",
-      "search_name": "吉野家 根津店",
-      "genre": "gyudon",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "78",
-      "display_name": "メンチの鉄人 根津店",
-      "search_name": "メンチの鉄人 根津店",
-      "genre": "bento",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "79",
-      "display_name": "あひーじょバル＆ごはん 山ぶどう",
-      "search_name": "あひーじょバル＆ごはん 山ぶどう",
-      "genre": "european",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "80",
-      "display_name": "パドマパレス",
-      "search_name": "パドマパレス 根津",
-      "genre": "ind-curry",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "81",
-      "display_name": "SPIGA 根津店",
-      "search_name": "SPIGA 根津店",
-      "genre": "italy",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "82",
-      "display_name": "レストランKIZUKA",
-      "search_name": "レストランKIZUKA",
-      "genre": "european",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "83",
-      "display_name": "ごはんがススム食堂",
-      "search_name": "ごはんがススム食堂",
-      "genre": "teishoku",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "84",
-      "display_name": "ブラッスリーリーヌ",
-      "search_name": "ブラッスリーリーヌ",
-      "genre": "french",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "85",
-      "display_name": "沖縄料理ぬちいぬ島",
-      "search_name": "沖縄料理ぬちいぬ島",
-      "genre": "ramen-other",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "86",
-      "display_name": "鮨みひろ",
-      "search_name": "鮨みひろ 根津",
-      "genre": "kaisen",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "87",
-      "display_name": "根の津 うどん",
-      "search_name": "根の津 うどん",
-      "genre": "udon",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "88",
-      "display_name": "根津うどん 釜竹",
-      "search_name": "根津うどん 釜竹",
-      "genre": "udon",
-      "district": "nezu",
-      "state": true
-    },
-    {
-      "key": "89",
-      "display_name": "小松庵 向丘店",
-      "search_name": "小松庵 向丘店",
-      "genre": "udon",
-      "district": "yayoi",
-      "state": true
-    },
-    {
-      "key": "90",
-      "display_name": "Cafe A gli 101 (東大構内)",
-      "search_name": "カフェ アグリ ワンオーワン",
-      "genre": "bento",
-      "district": "yayoi",
-      "state": true
-    }
-  ]
+  "1": {
+    "display_name": "松屋 本郷三丁目店",
+    "search_name": "松屋 本郷三丁目店",
+    "genre": "gyudon",
+    "district": "hon3",
+    "state": true
+  },
+  "2": {
+    "display_name": "家家家 本郷店",
+    "search_name": "家家家 本郷店",
+    "genre": "ramen-iekei",
+    "district": "akamon",
+    "state": true
+  },
+  "3": {
+    "display_name": "がブリチキン。 本郷店",
+    "search_name": "がブリチキン。 本郷店",
+    "genre": "chicken",
+    "district": "hon3",
+    "state": true
+  },
+  "4": {
+    "display_name": "我流坦々麺 竹子",
+    "search_name": "我流坦々麺 竹子",
+    "genre": "ramen-china",
+    "district": "hon3",
+    "state": true
+  },
+  "5": {
+    "display_name": "中華蕎麦 にし乃",
+    "search_name": "中華蕎麦 にし乃",
+    "genre": "ramen-1",
+    "district": "hon3",
+    "state": true
+  },
+  "6": {
+    "display_name": "焼肉ジャンボ 本郷店",
+    "search_name": "焼肉ジャンボ 本郷店",
+    "genre": "yakiniku",
+    "district": "hon3",
+    "state": true
+  },
+  "7": {
+    "display_name": "麺や 穂ころび",
+    "search_name": "麺や 穂ころび",
+    "genre": "ramen-1",
+    "district": "hon3",
+    "state": true
+  },
+  "8": {
+    "display_name": "西安刀削麺酒楼 本郷店",
+    "search_name": "西安刀削麺酒楼 本郷店",
+    "genre": "ramen-china",
+    "district": "hon3",
+    "state": true
+  },
+  "9": {
+    "display_name": "トンデジ 本郷店",
+    "search_name": "トンデジ 本郷店",
+    "genre": "korea",
+    "district": "hon3",
+    "state": true
+  },
+  "10": {
+    "display_name": "まぐろ専門店MEGRO",
+    "search_name": "まぐろ専門店MEGRO",
+    "genre": "kaisen",
+    "district": "hon3",
+    "state": true
+  },
+  "11": {
+    "display_name": "バーガーキング 本郷三丁目店",
+    "search_name": "バーガーキング 本郷三丁目店",
+    "genre": "hamburger",
+    "district": "hon3",
+    "state": true
+  },
+  "12": {
+    "display_name": "東京ペペロンチーノ",
+    "search_name": "東京ペペロンチーノ",
+    "genre": "italy",
+    "district": "hon3",
+    "state": true
+  },
+  "13": {
+    "display_name": "トウキョウライトブルー ホンゴウスリー",
+    "search_name": "トウキョウライトブルー ホンゴウスリー",
+    "genre": "udon",
+    "district": "hon3",
+    "state": true
+  },
+  "14": {
+    "display_name": "麺屋凛 本郷三丁目本店",
+    "search_name": "麺屋凛 本郷三丁目本店",
+    "genre": "ramen-1",
+    "district": "hon3",
+    "state": true
+  },
+  "15": {
+    "display_name": "モスバーガー 本郷三丁目店",
+    "search_name": "モスバーガー 本郷三丁目店",
+    "genre": "hamburger",
+    "district": "hon3",
+    "state": true
+  },
+  "16": {
+    "display_name": "インドカレーナマステ 本郷三丁目店",
+    "search_name": "インドカレーナマステ 本郷三丁目店",
+    "genre": "ind-curry",
+    "district": "hon3",
+    "state": true
+  },
+  "17": {
+    "display_name": "桂園 本郷三丁目店",
+    "search_name": "桂園 本郷三丁目店",
+    "genre": "china",
+    "district": "hon3",
+    "state": true
+  },
+  "18": {
+    "display_name": "永坂庵 本郷三丁目店",
+    "search_name": "永坂庵 本郷三丁目店",
+    "genre": "soba",
+    "district": "hon3",
+    "state": true
+  },
+  "19": {
+    "display_name": "洋食屋せんごく 本郷店",
+    "search_name": "洋食屋せんごく 本郷店",
+    "genre": "european",
+    "district": "hon3",
+    "state": true
+  },
+  "20": {
+    "display_name": "日乃屋カレー 本郷三丁目店",
+    "search_name": "日乃屋カレー 本郷三丁目店",
+    "genre": "curry",
+    "district": "hon3",
+    "state": true
+  },
+  "21": {
+    "display_name": "麺屋ねむ瑠",
+    "search_name": "麺屋ねむ瑠",
+    "genre": "ramen-1",
+    "district": "hon3",
+    "state": true
+  },
+  "22": {
+    "display_name": "なか卯 本郷三丁目店",
+    "search_name": "なか卯 本郷三丁目店",
+    "genre": "don",
+    "district": "hon3",
+    "state": true
+  },
+  "23": {
+    "display_name": "CoCo壱番屋 本郷三丁目駅前店",
+    "search_name": "CoCo壱番屋 本郷三丁目駅前店",
+    "genre": "curry",
+    "district": "hon3",
+    "state": true
+  },
+  "24": {
+    "display_name": "日高屋 本郷三丁目店",
+    "search_name": "日高屋 本郷三丁目店",
+    "genre": "china",
+    "district": "hon3",
+    "state": true
+  },
+  "25": {
+    "display_name": "SOBA UDON わ",
+    "search_name": "SOBA UDON わ",
+    "genre": "soba",
+    "district": "hon3",
+    "state": true
+  },
+  "26": {
+    "display_name": "サイゼリヤ 本郷三丁目店",
+    "search_name": "サイゼリヤ 本郷三丁目店",
+    "genre": "italy",
+    "district": "hon3",
+    "state": true
+  },
+  "27": {
+    "display_name": "（閉店）蓬渓閣",
+    "search_name": "蓬渓閣 本郷",
+    "genre": "china",
+    "district": "hon3",
+    "state": false
+  },
+  "28": {
+    "display_name": "本郷屋",
+    "search_name": "本郷屋",
+    "genre": "ramen-iekei",
+    "district": "hon3",
+    "state": true
+  },
+  "29": {
+    "display_name": "らーめん一信",
+    "search_name": "らーめん一信",
+    "genre": "ramen-1",
+    "district": "akamon",
+    "state": true
+  },
+  "30": {
+    "display_name": "やよい軒 本郷店",
+    "search_name": "やよい軒 本郷店",
+    "genre": "teishoku",
+    "district": "hon3",
+    "state": true
+  },
+  "31": {
+    "display_name": "東京坦々麺本舗 瀬佐味亭",
+    "search_name": "東京坦々麺本舗 瀬佐味亭 本郷",
+    "genre": "ramen-china",
+    "district": "akamon",
+    "state": true
+  },
+  "32": {
+    "display_name": "清流うなぎ月島 東大赤門前店",
+    "search_name": "清流うなぎ月島 東大赤門前店",
+    "genre": "unagi",
+    "district": "akamon",
+    "state": true
+  },
+  "33": {
+    "display_name": "龍蔵",
+    "search_name": "龍蔵 本郷",
+    "genre": "china",
+    "district": "akamon",
+    "state": true
+  },
+  "34": {
+    "display_name": "IZASA",
+    "search_name": "IZASA",
+    "genre": "ramen-1",
+    "district": "akamon",
+    "state": true
+  },
+  "35": {
+    "display_name": "タイ屋食堂 Thai Food",
+    "search_name": "タイ屋食堂 Thai Food 本郷",
+    "genre": "thai",
+    "district": "akamon",
+    "state": true
+  },
+  "36": {
+    "display_name": "海鮮どんぶり 銀八丼 東大赤門店",
+    "search_name": "海鮮どんぶり 銀八丼 東大赤門店",
+    "genre": "kaisen",
+    "district": "akamon",
+    "state": true
+  },
+  "37": {
+    "display_name": "ダージリン 本郷店",
+    "search_name": "ダージリン 本郷店",
+    "genre": "ind-curry",
+    "district": "akamon",
+    "state": true
+  },
+  "38": {
+    "display_name": "赤門餃子店",
+    "search_name": "赤門餃子店",
+    "genre": "china",
+    "district": "akamon",
+    "state": true
+  },
+  "39": {
+    "display_name": "おおさわ",
+    "search_name": "おおさわ 本郷",
+    "genre": "kaisen",
+    "district": "akamon",
+    "state": true
+  },
+  "40": {
+    "display_name": "一番餃子",
+    "search_name": "一番餃子 本郷",
+    "genre": "china",
+    "district": "akamon",
+    "state": true
+  },
+  "41": {
+    "display_name": "ピグ",
+    "search_name": "ピグ 本郷",
+    "genre": "steak",
+    "district": "seimon",
+    "state": true
+  },
+  "42": {
+    "display_name": "本格韓国家庭料理 いなか家",
+    "search_name": "本格韓国家庭料理 いなか家",
+    "genre": "korea",
+    "district": "seimon",
+    "state": true
+  },
+  "43": {
+    "display_name": "グリーンアップル",
+    "search_name": "グリーンアップル 本郷",
+    "genre": "curry",
+    "district": "seimon",
+    "state": true
+  },
+  "44": {
+    "display_name": "もり川",
+    "search_name": "もり川 本郷",
+    "genre": "teishoku",
+    "district": "seimon",
+    "state": true
+  },
+  "45": {
+    "display_name": "喫茶ルオー",
+    "search_name": "喫茶ルオー",
+    "genre": "kissa",
+    "district": "seimon",
+    "state": true
+  },
+  "46": {
+    "display_name": "吉田とん汁店",
+    "search_name": "吉田とん汁店",
+    "genre": "washoku",
+    "district": "seimon",
+    "state": true
+  },
+  "47": {
+    "display_name": "美味しい屋",
+    "search_name": "美味しい屋",
+    "genre": "china",
+    "district": "seimon",
+    "state": true
+  },
+  "48": {
+    "display_name": "宮本",
+    "search_name": "宮本 本郷",
+    "genre": "kaisen",
+    "district": "seimon",
+    "state": true
+  },
+  "49": {
+    "display_name": "まるそ",
+    "search_name": "まるそ 本郷",
+    "genre": "soba",
+    "district": "seimon",
+    "state": true
+  },
+  "50": {
+    "display_name": "欧風カレー ル・ムーラン",
+    "search_name": "欧風カレー ル・ムーラン",
+    "genre": "curry",
+    "district": "seimon",
+    "state": true
+  },
+  "51": {
+    "display_name": "カポ・ペリカーノ",
+    "search_name": "カポ・ペリカーノ 本郷",
+    "genre": "italy",
+    "district": "seimon",
+    "state": true
+  },
+  "52": {
+    "display_name": "東京大学 銀杏メトロ食堂",
+    "search_name": "東京大学 銀杏メトロ食堂",
+    "genre": "teishoku",
+    "district": "seimon",
+    "state": true
+  },
+  "53": {
+    "display_name": "東京大学 中央食堂",
+    "search_name": "東京大学 中央食堂",
+    "genre": "teishoku",
+    "district": "seimon",
+    "state": true
+  },
+  "54": {
+    "display_name": "東京大学 本郷第二食堂",
+    "search_name": "東京大学 本郷第二食堂",
+    "genre": "teishoku",
+    "district": "seimon",
+    "state": true
+  },
+  "55": {
+    "display_name": "ネオポンテTOKYO",
+    "search_name": "ネオポンテTOKYO 本郷",
+    "genre": "others",
+    "district": "seimon",
+    "state": true
+  },
+  "56": {
+    "display_name": "SUPER PIZZA",
+    "search_name": "SUPER PIZZA 本郷",
+    "genre": "italy",
+    "district": "seimon",
+    "state": true
+  },
+  "57": {
+    "display_name": "北海道の米と汁U-gohan 東大正門",
+    "search_name": "北海道の米と汁U-gohan 東大正門",
+    "genre": "washoku",
+    "district": "seimon",
+    "state": true
+  },
+  "58": {
+    "display_name": "札幌味噌ラーメン 三好",
+    "search_name": "札幌味噌ラーメン 三好",
+    "genre": "ramen-miso",
+    "district": "yayoi",
+    "state": true
+  },
+  "59": {
+    "display_name": "保苅商店",
+    "search_name": "保苅商店 本郷",
+    "genre": "bento",
+    "district": "yayoi",
+    "state": true
+  },
+  "60": {
+    "display_name": "nanara食堂",
+    "search_name": "nanara食堂",
+    "genre": "teishoku",
+    "district": "yayoi",
+    "state": true
+  },
+  "61": {
+    "display_name": "増田屋",
+    "search_name": "増田屋 本郷",
+    "genre": "soba",
+    "district": "yayoi",
+    "state": true
+  },
+  "62": {
+    "display_name": "石垣の塩まぜそば 織恩",
+    "search_name": "石垣の塩まぜそば 織恩",
+    "genre": "ramen-other",
+    "district": "yayoi",
+    "state": true
+  },
+  "63": {
+    "display_name": "ビサール",
+    "search_name": "ビサール 本郷",
+    "genre": "ind-curry",
+    "district": "yayoi",
+    "state": true
+  },
+  "64": {
+    "display_name": "旬菜宵処 おぐち",
+    "search_name": "旬菜宵処 おぐち",
+    "genre": "teishoku",
+    "district": "yayoi",
+    "state": true
+  },
+  "65": {
+    "display_name": "用心棒 本号",
+    "search_name": "用心棒 本号",
+    "genre": "ramen-jiro",
+    "district": "yayoi",
+    "state": true
+  },
+  "66": {
+    "display_name": "隋苑 上海厨房",
+    "search_name": "隋苑 上海厨房",
+    "genre": "china",
+    "district": "hon3",
+    "state": true
+  },
+  "67": {
+    "display_name": "鶏はな",
+    "search_name": "鶏はな 根津",
+    "genre": "don",
+    "district": "nezu",
+    "state": true
+  },
+  "68": {
+    "display_name": "一卵亭",
+    "search_name": "一卵亭 根津",
+    "genre": "washoku",
+    "district": "nezu",
+    "state": true
+  },
+  "69": {
+    "display_name": "けい",
+    "search_name": "けい 根津",
+    "genre": "washoku",
+    "district": "nezu",
+    "state": true
+  },
+  "70": {
+    "display_name": "根津カレー ラッキー",
+    "search_name": "根津カレー ラッキー",
+    "genre": "curry",
+    "district": "nezu",
+    "state": true
+  },
+  "71": {
+    "display_name": "根津巡りや 究極の卵かけご飯",
+    "search_name": "根津巡りや 究極の卵かけご飯",
+    "genre": "washoku",
+    "district": "nezu",
+    "state": true
+  },
+  "72": {
+    "display_name": "食為天 根津店",
+    "search_name": "食為天 根津店",
+    "genre": "china",
+    "district": "nezu",
+    "state": true
+  },
+  "73": {
+    "display_name": "BINGO TACOS KITCHEN",
+    "search_name": "BINGO TACOS KITCHEN",
+    "genre": "others",
+    "district": "nezu",
+    "state": true
+  },
+  "74": {
+    "display_name": "ラーメンバル ゆきかげ",
+    "search_name": "ラーメンバル ゆきかげ",
+    "genre": "ramen-1",
+    "district": "nezu",
+    "state": true
+  },
+  "75": {
+    "display_name": "和幸",
+    "search_name": "和幸 根津",
+    "genre": "teishoku",
+    "district": "nezu",
+    "state": true
+  },
+  "76": {
+    "display_name": "定食かめや",
+    "search_name": "定食かめや 根津",
+    "genre": "teishoku",
+    "district": "nezu",
+    "state": true
+  },
+  "77": {
+    "display_name": "吉野家 根津店",
+    "search_name": "吉野家 根津店",
+    "genre": "gyudon",
+    "district": "nezu",
+    "state": true
+  },
+  "78": {
+    "display_name": "メンチの鉄人 根津店",
+    "search_name": "メンチの鉄人 根津店",
+    "genre": "bento",
+    "district": "nezu",
+    "state": true
+  },
+  "79": {
+    "display_name": "あひーじょバル＆ごはん 山ぶどう",
+    "search_name": "あひーじょバル＆ごはん 山ぶどう",
+    "genre": "european",
+    "district": "nezu",
+    "state": true
+  },
+  "80": {
+    "display_name": "パドマパレス",
+    "search_name": "パドマパレス 根津",
+    "genre": "ind-curry",
+    "district": "nezu",
+    "state": true
+  },
+  "81": {
+    "display_name": "SPIGA 根津店",
+    "search_name": "SPIGA 根津店",
+    "genre": "italy",
+    "district": "nezu",
+    "state": true
+  },
+  "82": {
+    "display_name": "レストランKIZUKA",
+    "search_name": "レストランKIZUKA",
+    "genre": "european",
+    "district": "nezu",
+    "state": true
+  },
+  "83": {
+    "display_name": "ごはんがススム食堂",
+    "search_name": "ごはんがススム食堂",
+    "genre": "teishoku",
+    "district": "nezu",
+    "state": true
+  },
+  "84": {
+    "display_name": "ブラッスリーリーヌ",
+    "search_name": "ブラッスリーリーヌ",
+    "genre": "french",
+    "district": "nezu",
+    "state": true
+  },
+  "85": {
+    "display_name": "沖縄料理ぬちいぬ島",
+    "search_name": "沖縄料理ぬちいぬ島",
+    "genre": "ramen-other",
+    "district": "nezu",
+    "state": true
+  },
+  "86": {
+    "display_name": "鮨みひろ",
+    "search_name": "鮨みひろ 根津",
+    "genre": "kaisen",
+    "district": "nezu",
+    "state": true
+  },
+  "87": {
+    "display_name": "根の津 うどん",
+    "search_name": "根の津 うどん",
+    "genre": "udon",
+    "district": "nezu",
+    "state": true
+  },
+  "88": {
+    "display_name": "根津うどん 釜竹",
+    "search_name": "根津うどん 釜竹",
+    "genre": "udon",
+    "district": "nezu",
+    "state": true
+  },
+  "89": {
+    "display_name": "小松庵 向丘店",
+    "search_name": "小松庵 向丘店",
+    "genre": "udon",
+    "district": "yayoi",
+    "state": false
+  },
+  "90": {
+    "display_name": "Cafe A gli 101 (東大構内)",
+    "search_name": "カフェ アグリ ワンオーワン",
+    "genre": "bento",
+    "district": "yayoi",
+    "state": true
+  }
 }

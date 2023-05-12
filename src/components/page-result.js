@@ -1,7 +1,7 @@
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-import { PageHeader } from "./util-content";
+import { PageHeader } from "./utils/util-content";
 
 
 export const PageResult = ({ result }) => {

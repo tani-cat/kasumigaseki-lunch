@@ -1,120 +1,31 @@
 {
-  "genre": [
-    {
-      "key": "gyudon",
-      "name": "牛丼"
-    },
-    {
-      "key": "ramen-iekei",
-      "name": "ラーメン（家系）"
-    },
-    {
-      "key": "chicken",
-      "name": "焼き鳥"
-    },
-    {
-      "key": "ramen-china",
-      "name": "ラーメン（中華系）"
-    },
-    {
-      "key": "ramen-1",
-      "name": "ラーメン（一般）"
-    },
-    {
-      "key": "yakiniku",
-      "name": "焼肉"
-    },
-    {
-      "key": "korea",
-      "name": "韓国料理"
-    },
-    {
-      "key": "kaisen",
-      "name": "魚介海鮮料理"
-    },
-    {
-      "key": "hamburger",
-      "name": "ハンバーガー"
-    },
-    {
-      "key": "italy",
-      "name": "イタリア料理"
-    },
-    {
-      "key": "udon",
-      "name": "うどん"
-    },
-    {
-      "key": "ind-curry",
-      "name": "インドカレー"
-    },
-    {
-      "key": "china",
-      "name": "中華料理"
-    },
-    {
-      "key": "soba",
-      "name": "そば"
-    },
-    {
-      "key": "european",
-      "name": "洋食（その他）"
-    },
-    {
-      "key": "curry",
-      "name": "カレー"
-    },
-    {
-      "key": "don",
-      "name": "丼もの"
-    },
-    {
-      "key": "teishoku",
-      "name": "定食"
-    },
-    {
-      "key": "unagi",
-      "name": "うなぎ"
-    },
-    {
-      "key": "thai",
-      "name": "タイ料理"
-    },
-    {
-      "key": "steak",
-      "name": "ステーキ"
-    },
-    {
-      "key": "kissa",
-      "name": "喫茶店"
-    },
-    {
-      "key": "washoku",
-      "name": "和食"
-    },
-    {
-      "key": "others",
-      "name": "その他"
-    },
-    {
-      "key": "ramen-miso",
-      "name": "ラーメン（味噌）"
-    },
-    {
-      "key": "bento",
-      "name": "弁当"
-    },
-    {
-      "key": "ramen-other",
-      "name": "麺類（その他）"
-    },
-    {
-      "key": "ramen-jiro",
-      "name": "ラーメン（二郎系）"
-    },
-    {
-      "key": "french",
-      "name": "フランス料理"
-    }
-  ]
+  "gyudon": "牛丼",
+  "ramen-iekei": "ラーメン（家系）",
+  "chicken": "焼き鳥",
+  "ramen-china": "ラーメン（中華系）",
+  "ramen-1": "ラーメン（一般）",
+  "yakiniku": "焼肉",
+  "korea": "韓国料理",
+  "kaisen": "魚介海鮮料理",
+  "hamburger": "ハンバーガー",
+  "italy": "イタリア料理",
+  "udon": "うどん",
+  "ind-curry": "インドカレー",
+  "china": "中華料理",
+  "soba": "そば",
+  "european": "洋食（その他）",
+  "curry": "カレー",
+  "don": "丼もの",
+  "teishoku": "定食",
+  "unagi": "うなぎ",
+  "thai": "タイ料理",
+  "steak": "ステーキ",
+  "kissa": "喫茶店",
+  "washoku": "和食",
+  "others": "その他",
+  "ramen-miso": "ラーメン（味噌）",
+  "bento": "弁当",
+  "ramen-other": "麺類（その他）",
+  "ramen-jiro": "ラーメン（二郎系）",
+  "french": "フランス料理"
 }

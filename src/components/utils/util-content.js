@@ -16,7 +16,7 @@ export const PageHeader = () => {
 }
 
 
-export const BackToTop = () => {
+export const PageFooter = () => {
   const navigate = useNavigate();
   return (
     <div>

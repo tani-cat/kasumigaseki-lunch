@@ -3,8 +3,8 @@
 import { Button, Card, Row, ToggleButton } from 'react-bootstrap';
 
 
-const CheckButton = ({ item, checked, onChange }) => {
-  return <ToggleButton type="checkbox" id={item.key} variant="outline-success" checked={checked} onChange={onChange} value={item.key}>{item.name}</ToggleButton>
+const CheckButton = ({ itemKey, itemName, checked, onChange }) => {
+  return <ToggleButton type="checkbox" id={itemKey} variant="outline-success" checked={checked} onChange={onChange} value={itemKey}>{itemName}</ToggleButton>
 }
 
 
@@ -18,11 +18,19 @@ export const FilterCard = ({ name, target, states, setStates }) => {
 
   const selectAll = e => {
     const flg = e.target.name === "all";
-    setStates(target.reduce((res, item) => {
-      res[item.key] = flg;
+    setStates(Object.keys(target).reduce((res, key) => {
+      res[key] = flg;
       return res;
     }, {}));
   }
+
+  const targetList = Object.keys(target).map(key => {
+    return (
+      <span key={key} className="mb-1">
+        <CheckButton itemKey={key} itemName={target[key]} checked={states[key]} onChange={handleChange} />
+      </span>
+    )
+  });
 
   return (
     <Card>
@@ -34,13 +42,7 @@ export const FilterCard = ({ name, target, states, setStates }) => {
         </Row>
         <hr />
         <Row className="row-cols-auto justify-content-center">
-          {target.map(item => {
-            return (
-              <span key={item.key} className="mb-1">
-                <CheckButton item={item} checked={states[item.key]} onChange={handleChange} />
-              </span>
-            )
-          })}
+          {targetList}
         </Row>
       </Card.Body>
     </Card>

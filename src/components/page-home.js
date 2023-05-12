@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
-import { FilterCard } from "./util-filter";
 import { Link, useNavigate } from "react-router-dom";
 
-import { PageHeader } from "./util-content";
+import { FilterCard } from "./utils//util-filter";
+import { PageHeader } from "./utils/util-content";
 
 import District from "../data/district.json";
 import Genre from "../data/genre.json";
@@ -22,37 +22,37 @@ const eventTrack = (result) => {
 export const PageHome = ({ setResult }) => {
   const navigate = useNavigate();
   // districts, genres の初期値はすべて true にセットしておく
-  const [districts, setDistricts] = useState(District.district.reduce((res, item) => {
-    res[item.key] = true;
+  const [districts, setDistricts] = useState(Object.keys(District).reduce((res, key) => {
+    res[key] = true;
     return res;
   }, {}));
-  const [genres, setGenres] = useState(Genre.genre.reduce((res, item) => {
-    res[item.key] = true;
+  const [genres, setGenres] = useState(Object.keys(Genre).reduce((res, key) => {
+    res[key] = true;
     return res;
   }, {}));
 
   const passResult = () => {
     // 乱数で決定する
-    const targetDists = District.district.reduce((res, item) => {
-      if (districts[item.key]) { res.push(item.key) }
+    const targetDists = Object.keys(District).reduce((res, key) => {
+      if (districts[key]) { res.push(key) }
       return res;
     }, []);
-    const targetGenres = Genre.genre.reduce((res, item) => {
-      if (genres[item.key]) { res.push(item.key) }
+    const targetGenres = Object.keys(Genre).reduce((res, key) => {
+      if (genres[key]) { res.push(key) }
       return res;
     }, []);
-    const targetPlace = Place.place.filter(
-      place => targetDists.includes(place.district) && targetGenres.includes(place.genre)
+    const targetPlaceIds = Object.keys(Place).filter(
+      key => targetDists.includes(Place[key].district) && targetGenres.includes(Place[key].genre)
     );
     // console.log(targetDists);
     // console.log(districts);
-    if (targetPlace.length === 0) {
+    if (targetPlaceIds.length === 0) {
       alert("対象となるお店がありません。条件を変更して再度お試しください。");
       return;
     }
-    const resultId = Math.floor(Math.random() * targetPlace.length);
-    eventTrack(targetPlace[resultId].display_name);
-    setResult(targetPlace[resultId]);
+    const resultNum = Math.floor(Math.random() * targetPlaceIds.length);  // int
+    eventTrack(Place[targetPlaceIds[resultNum]].display_name);  // targetPlaceIds[x]: str
+    setResult(Place[targetPlaceIds[resultNum]]);
     navigate("/result");
   }
 
@@ -65,9 +65,9 @@ export const PageHome = ({ setResult }) => {
       <br />
       <Button variant="primary" onClick={passResult}>今日のランチを決定！</Button>
       <hr />
-      <FilterCard name="地区" target={District.district} states={districts} setStates={setDistricts} />
+      <FilterCard name="地区" target={District} states={districts} setStates={setDistricts} />
       <br />
-      <FilterCard name="ジャンル" target={Genre.genre} states={genres} setStates={setGenres} />
+      <FilterCard name="ジャンル" target={Genre} states={genres} setStates={setGenres} />
       <hr />
       <h3>More Information</h3>
       <Row className="row-cols-auto justify-content-center">
