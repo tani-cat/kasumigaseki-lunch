@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hongo-lunch/static/css/main.b4d40e20.css",
-    "main.js": "/hongo-lunch/static/js/main.1c5a01eb.js",
-    "static/js/787.3cfd6f1a.chunk.js": "/hongo-lunch/static/js/787.3cfd6f1a.chunk.js",
+    "main.js": "/hongo-lunch/static/js/main.513e709c.js",
+    "static/js/496.cfdf4a77.chunk.js": "/hongo-lunch/static/js/496.cfdf4a77.chunk.js",
     "service-worker.js": "/hongo-lunch/service-worker.js",
     "index.html": "/hongo-lunch/index.html",
-    "main.1c5a01eb.js.map": "/hongo-lunch/static/js/main.1c5a01eb.js.map",
-    "787.3cfd6f1a.chunk.js.map": "/hongo-lunch/static/js/787.3cfd6f1a.chunk.js.map"
+    "main.513e709c.js.map": "/hongo-lunch/static/js/main.513e709c.js.map",
+    "496.cfdf4a77.chunk.js.map": "/hongo-lunch/static/js/496.cfdf4a77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4d40e20.css",
-    "static/js/main.1c5a01eb.js"
+    "static/js/main.513e709c.js"
   ]
 }
