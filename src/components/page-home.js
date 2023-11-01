@@ -23,10 +23,13 @@ export const PageHome = (
   { setResult, districts, setDistricts, genres, setGenres, includeChain, setIncludeChain }
 ) => {
   const navigate = useNavigate();
-  const [chainText, setChainText] = useState('チェーン店を含む');
+  const initialChainText = includeChain ? 'チェーン店を含む' : 'チェーン店を含まない';
+  const [chainText, setChainText] = useState(initialChainText);
 
   const changeChain = e => {
     setIncludeChain(e.currentTarget.checked);
+    localStorage.setItem('includeChain', e.currentTarget.checked);
+
     if (includeChain) {
       setChainText('チェーン店を含まない');
     } else {
