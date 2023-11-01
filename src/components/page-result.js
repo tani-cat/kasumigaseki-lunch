@@ -27,7 +27,7 @@ export const PageResult = ({ result }) => {
         </Card.Body>
       </Card>
       <div>
-        <Button variant="secondary" onClick={() => navigate("/")}>もう一度選ぶ</Button>
+        <Button variant="secondary" onClick={() => navigate("/")} autoFocus={true}>もう一度選ぶ</Button>
       </div>
     </>
   )

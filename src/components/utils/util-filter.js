@@ -1,5 +1,3 @@
-
-
 import { Button, Card, Row, ToggleButton } from 'react-bootstrap';
 
 

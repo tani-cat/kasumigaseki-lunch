@@ -12,6 +12,16 @@ npm start
 npm test
 ```
 
+## package.jsonの更新
+
+事前に `npm install -g npm-check-updates` しておく。
+
+```shell
+npm-check-updates
+ncu -u
+npm install
+```
+
 ## GitHub Pages へのデプロイ
 
 ```shell
