@@ -18,7 +18,7 @@ export const PageResult = ({ result }) => {
           </Card.Text>
           <Row className="row-cols-auto justify-content-center">
             <Col>
-              <Button as="a" type="button" variant="outline-info" className="me-1" href={`https://twitter.com/intent/tweet?text=今日のランチは「${result.display_name}」にします&hashtags=本郷ランチ&url=https://tani-cat.github.io/hongo-lunch/`} target="_blank" rel="nofollow">Tweet</Button>
+              <Button as="a" type="button" variant="outline-info" className="me-1" href={`https://twitter.com/intent/tweet?text=今日のランチは「${result.display_name}」にします&hashtags=本郷ランチ&url=${encodeURIComponent('https://tani-cat.github.io/hongo-lunch/')}`} target="_blank" rel="nofollow">Tweet</Button>
             </Col>
             <Col>
               <Button as="a" type="button" variant="outline-success" href={`https://www.google.com/maps/search/?api=1&query=${result.search_name}`} target="_blank" rel="nofollow">Google Map</Button>
