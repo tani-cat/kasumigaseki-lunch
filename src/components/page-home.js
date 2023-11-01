@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Button, Col, Row, ToggleButton } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
@@ -23,18 +22,10 @@ export const PageHome = (
   { setResult, districts, setDistricts, genres, setGenres, includeChain, setIncludeChain }
 ) => {
   const navigate = useNavigate();
-  const initialChainText = includeChain ? 'チェーン店を含む' : 'チェーン店を含まない';
-  const [chainText, setChainText] = useState(initialChainText);
 
   const changeChain = e => {
     setIncludeChain(e.currentTarget.checked);
     localStorage.setItem('includeChain', e.currentTarget.checked);
-
-    if (includeChain) {
-      setChainText('チェーン店を含まない');
-    } else {
-      setChainText('チェーン店を含む');
-    }
   }
 
   const passResult = () => {
@@ -76,7 +67,7 @@ export const PageHome = (
       <Button variant="primary" onClick={passResult} autoFocus={true} >今日のランチを決定！</Button>
       <hr />
       <div>
-        <ToggleButton type="checkbox" id="includeChain" variant="outline-success" checked={includeChain} onChange={changeChain} value="includeChain">{chainText}</ToggleButton>
+        <ToggleButton type="checkbox" id="includeChain" variant="outline-success" checked={includeChain} onChange={changeChain} value="includeChain">{includeChain ? 'チェーン店を含む' : 'チェーン店を含まない'}</ToggleButton>
         <br />
         <p className="text-muted mt-1">チェーン店を除外したい場合は「チェーン店を含まない」にしてください。</p>
       </div>
