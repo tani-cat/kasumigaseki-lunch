@@ -16,7 +16,7 @@ import Genre from './data/genre.json';
 
 
 export const App = () => {
-  // Get initial values from localStorage
+  // Get values from localStorage
   let initialDistricts;
   const districtsFromLocalStorage = localStorage.getItem('districts');
   if (districtsFromLocalStorage !== null) {
@@ -37,7 +37,7 @@ export const App = () => {
   const includeChainFromLocalStorage = localStorage.getItem('includeChain');
   if (includeChainFromLocalStorage !== null && includeChainFromLocalStorage === 'false') initialIncludeChain = false;
 
-  // Set states
+  // Set initial states
   const [result, setResult] = useState('');
   const [districts, setDistricts] = useState(Object.keys(District).reduce((res, key) => {
     res[key] = initialDistricts.includes(key);
