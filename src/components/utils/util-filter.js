@@ -6,20 +6,23 @@ const CheckButton = ({ itemKey, itemName, checked, onChange }) => {
 }
 
 
-export const FilterCard = ({ name, target, states, setStates }) => {
+export const FilterCard = ({ name, id, target, states, setStates }) => {
   const handleChange = e => {
-    setStates({
-      ...states,
-      [e.target.id]: e.target.checked
-    })
+    const newStates = { ...states, [e.target.id]: e.target.checked }
+
+    localStorage.setItem(id, Object.keys(newStates).filter(key => newStates[key]));
+    setStates(newStates);
   }
 
   const selectAll = e => {
     const flg = e.target.name === "all";
-    setStates(Object.keys(target).reduce((res, key) => {
+    const newStates = Object.keys(target).reduce((res, key) => {
       res[key] = flg;
       return res;
-    }, {}));
+    }, {});
+
+    localStorage.setItem(id, Object.keys(newStates).filter(key => newStates[key]));
+    setStates(newStates);
   }
 
   const targetList = Object.keys(target).map(key => {

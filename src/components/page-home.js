@@ -71,9 +71,9 @@ export const PageHome = (
         <br />
         <p className="text-muted mt-1">チェーン店を除外したい場合は「チェーン店を含まない」にしてください。</p>
       </div>
-      <FilterCard name="地区" target={District} states={districts} setStates={setDistricts} />
+      <FilterCard name="地区" id="districts" target={District} states={districts} setStates={setDistricts} />
       <br />
-      <FilterCard name="ジャンル" target={Genre} states={genres} setStates={setGenres} />
+      <FilterCard name="ジャンル" id="genres" target={Genre} states={genres} setStates={setGenres} />
       <hr />
       <h3>More Information</h3>
       <Row className="row-cols-auto justify-content-center">
