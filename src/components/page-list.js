@@ -10,17 +10,29 @@ import Place from "../data/place.json";
 
 
 export const PageList = () => {
-  const tbody = Object.keys(Place).map(key => {
-    return (
-      <tr key={key}>
-        {/* <td>{item.key}</td> */}
-        <td>{District[Place[key].district]}</td>
-        <td>{Genre[Place[key].genre]}</td>
-        <td>{Place[key].display_name}</td>
-        <td>{Place[key].state ? <BsCheckCircleFill /> : <BsCircle />}</td>
-      </tr>
-    );
-  });
+  // エリアごとにまとめる
+  const compareOrder = (a, b) => {
+    if (Place[a].district < Place[b].district) {return -1;}
+    if (Place[b].district < Place[a].district) { return 1; }
+    return 0;
+  }
+  const placeKeys = Object.keys(Place);
+  placeKeys.sort(compareOrder);
+  const tbody = placeKeys.reduce((res, key) => {
+    if (Place[key].state) {
+      res.push(
+        <tr key={key}>
+          {/* <td>{item.key}</td> */}
+          <td>{District[Place[key].district]}</td>
+          <td>{Genre[Place[key].genre]}</td>
+          <td>{Place[key].display_name}</td>
+          <td>{Place[key].is_chain ? <BsCheckCircleFill /> : <BsCircle />}</td>
+          {/* <td>{Place[key].state ? <BsCheckCircleFill /> : <BsCircle />}</td> */}
+        </tr>
+      ); 
+    }
+    return res;
+  }, []);
 
   return (
     <>
@@ -28,7 +40,7 @@ export const PageList = () => {
       <hr />
       <h4>登場する店舗一覧</h4>
       <div>
-        <small class="text-muted"></small>
+        <small className="text-muted"></small>
       </div>
       <Table hover striped>
         <thead>
@@ -37,7 +49,8 @@ export const PageList = () => {
             <th>地区</th>
             <th>ジャンル</th>
             <th>店名</th>
-            <th>有効</th>
+            <th>チェーン店</th>
+            {/* <th>有効</th> */}
           </tr>
         </thead>
         <tbody>

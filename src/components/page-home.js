@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Button, Col, Row, ToggleButton } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -19,30 +19,37 @@ const eventTrack = (result) => {
   });
 }
 
-export const PageHome = ({ setResult }) => {
+export const PageHome = (
+  { setResult, districts, setDistricts, genres, setGenres, includeChain, setIncludeChain }
+) => {
   const navigate = useNavigate();
-  // districts, genres の初期値はすべて true にセットしておく
-  const [districts, setDistricts] = useState(Object.keys(District).reduce((res, key) => {
-    res[key] = true;
-    return res;
-  }, {}));
-  const [genres, setGenres] = useState(Object.keys(Genre).reduce((res, key) => {
-    res[key] = true;
-    return res;
-  }, {}));
+  const [chainText, setChainText] = useState('チェーン店を含む');
+
+  const changeChain = e => {
+    setIncludeChain(e.currentTarget.checked);
+    if (includeChain) {
+      setChainText('チェーン店を含まない');
+    } else {
+      setChainText('チェーン店を含む');
+    }
+  }
 
   const passResult = () => {
     // 乱数で決定する
-    const targetDists = Object.keys(District).reduce((res, key) => {
-      if (districts[key]) { res.push(key) }
-      return res;
-    }, []);
-    const targetGenres = Object.keys(Genre).reduce((res, key) => {
-      if (genres[key]) { res.push(key) }
-      return res;
-    }, []);
+    const targetChain = includeChain ? [true, false] : [false];
+    // const targetDists = Object.keys(District).reduce((res, key) => {
+    //   if (districts[key]) { res.push(key) }
+    //   return res;
+    // }, []);
+    // const targetGenres = Object.keys(Genre).reduce((res, key) => {
+    //   if (genres[key]) { res.push(key) }
+    //   return res;
+    // }, []);
+    // const targetPlaceIds = Object.keys(Place).filter(
+    //   key => targetDists.includes(Place[key].district) && targetGenres.includes(Place[key].genre)
+    // );
     const targetPlaceIds = Object.keys(Place).filter(
-      key => targetDists.includes(Place[key].district) && targetGenres.includes(Place[key].genre)
+      key => Place[key].state && districts[Place[key].district] && genres[Place[key].genre] && targetChain.includes(Place[key].is_chain)
     );
     // console.log(targetDists);
     // console.log(districts);
@@ -63,8 +70,13 @@ export const PageHome = ({ setResult }) => {
         <small className="text-muted">本郷近辺のお店からあなたの今日のランチを選びます</small>
       </div>
       <br />
-      <Button variant="primary" onClick={passResult}>今日のランチを決定！</Button>
+      <Button variant="primary" onClick={passResult} autoFocus={true} >今日のランチを決定！</Button>
       <hr />
+      <div>
+        <ToggleButton type="checkbox" id="includeChain" variant="outline-success" checked={includeChain} onChange={changeChain} value="includeChain">{chainText}</ToggleButton>
+        <br />
+        <p className="text-muted mt-1">チェーン店を除外したい場合は「チェーン店を含まない」にしてください。</p>
+      </div>
       <FilterCard name="地区" target={District} states={districts} setStates={setDistricts} />
       <br />
       <FilterCard name="ジャンル" target={Genre} states={genres} setStates={setGenres} />
