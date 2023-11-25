@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import './App.css';
 
@@ -44,7 +44,7 @@ export const App = () => {
               setIncludeChain={setIncludeChain}
             />
           } />
-          <Route path="/result" element={result ? <PageResult result={result} /> : <PageHome setResult={setResult} />} />
+          <Route path="/result" element={result ? <PageResult result={result} /> : <Navigate to="/" />} />
           <Route path="/list" element={<PageList />} />
           <Route path="/update" element={<PageUpdate />} />
           <Route path="*" element={<Page404 />} />
