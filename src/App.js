@@ -71,7 +71,7 @@ export const App = () => {
           <Route path="*" element={<Page404 />} />
         </Routes>
         <br />
-        <div>本郷ランチ ver. {process.env.REACT_APP_VERSION}</div>
+        <div>霞が関ランチ ver. {process.env.REACT_APP_VERSION}</div>
       </Container>
     </BrowserRouter >
   );

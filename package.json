@@ -1,9 +1,9 @@
 {
-  "name": "hongo-lunch",
-  "version": "0.5.1",
-  "description": "suggest your lunch in Hongo area (Bunkyo, Tokyo)",
+  "name": "kasumigaseki-lunch",
+  "version": "0.6.0",
+  "description": "suggest your lunch in Japanese government office districts (Kasumigaseki, Nagatacho and etc.)",
   "private": true,
-  "homepage": "https://tani-cat.github.io/hongo-lunch/",
+  "homepage": "https://tani-cat.github.io/kasumigaseki-lunch/",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
@@ -49,9 +49,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
     ]
   },
   "devDependencies": {

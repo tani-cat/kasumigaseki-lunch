@@ -61,7 +61,7 @@ export const PageHome = (
     <>
       <PageHeader />
       <div>
-        <small className="text-muted">本郷近辺のお店からあなたの今日のランチを選びます</small>
+        <small className="text-muted">霞が関周辺のお店からあなたの今日のランチを選びます</small>
       </div>
       <br />
       <Button variant="primary" onClick={passResult} autoFocus={true} >今日のランチを決定！</Button>

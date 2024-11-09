@@ -9,7 +9,7 @@ export const PageHeader = () => {
   return (
     <>
       <Link to="/" className="text-reset text-decoration-none">
-        <h2 className="mb-3">本郷ランチ</h2>
+        <h2 className="mb-3">霞が関ランチ</h2>
       </Link>
     </>
   );
