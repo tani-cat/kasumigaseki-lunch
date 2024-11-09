@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Button, Col, Row, ToggleButton } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
@@ -23,15 +22,10 @@ export const PageHome = (
   { setResult, districts, setDistricts, genres, setGenres, includeChain, setIncludeChain }
 ) => {
   const navigate = useNavigate();
-  const [chainText, setChainText] = useState('チェーン店を含む');
 
   const changeChain = e => {
     setIncludeChain(e.currentTarget.checked);
-    if (includeChain) {
-      setChainText('チェーン店を含まない');
-    } else {
-      setChainText('チェーン店を含む');
-    }
+    localStorage.setItem('includeChain', e.currentTarget.checked);
   }
 
   const passResult = () => {
@@ -73,13 +67,13 @@ export const PageHome = (
       <Button variant="primary" onClick={passResult} autoFocus={true} >今日のランチを決定！</Button>
       <hr />
       <div>
-        <ToggleButton type="checkbox" id="includeChain" variant="outline-success" checked={includeChain} onChange={changeChain} value="includeChain">{chainText}</ToggleButton>
+        <ToggleButton type="checkbox" id="includeChain" variant="outline-success" checked={includeChain} onChange={changeChain} value="includeChain">{includeChain ? 'チェーン店を含む' : 'チェーン店を含まない'}</ToggleButton>
         <br />
         <p className="text-muted mt-1">チェーン店を除外したい場合は「チェーン店を含まない」にしてください。</p>
       </div>
-      <FilterCard name="地区" target={District} states={districts} setStates={setDistricts} />
+      <FilterCard name="地区" id="districts" target={District} states={districts} setStates={setDistricts} />
       <br />
-      <FilterCard name="ジャンル" target={Genre} states={genres} setStates={setGenres} />
+      <FilterCard name="ジャンル" id="genres" target={Genre} states={genres} setStates={setGenres} />
       <hr />
       <h3>More Information</h3>
       <Row className="row-cols-auto justify-content-center">
