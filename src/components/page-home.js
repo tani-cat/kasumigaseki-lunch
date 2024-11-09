@@ -85,7 +85,7 @@ export const PageHome = (
           </Link>
         </Col>
         <Col>
-          <a href="https://www.github.com/tani-cat/hongo-lunch" target="_blank" rel="noreferrer">
+          <a href="https://www.github.com/tani-cat/kasumigaseki-lunch" target="_blank" rel="noreferrer">
             <Button variant="outline-dark"><FaGithub />Contribute</Button>
           </a>
         </Col>
